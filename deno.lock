@@ -1,5 +1,8 @@
 {
-  "version": "2",
+  "version": "3",
+  "redirects": {
+    "https://deno.land/x/notion_sdk/src/mod.ts": "https://deno.land/x/notion_sdk@v2.2.3/src/mod.ts"
+  },
   "remote": {
     "https://deno.land/std@0.201.0/assert/_constants.ts": "8a9da298c26750b28b326b297316cdde860bc237533b07e1337c021379e6b2a9",
     "https://deno.land/std@0.201.0/assert/_diff.ts": "1a3c044aedf77647d6cac86b798c6417603361b66b54c53331b312caeb447aea",
@@ -132,6 +135,14 @@
     "https://deno.land/x/jose@v4.6.0/util/base64url.ts": "d2567042684de8bf1e4f1ad67be40ab343ee192ddf1cf12ff1d940d6c1fa2bcb",
     "https://deno.land/x/jose@v4.6.0/util/decode_jwt.ts": "f0e30dc91a0d567450d9b04ab4ae53ecf29cb6d1178fb3eb639dd8b472ea1f63",
     "https://deno.land/x/jose@v4.6.0/util/decode_protected_header.ts": "00c3e86ec4969829568531ac4c52f79f35193759dcd60782e253b4f5e6ac250e",
-    "https://deno.land/x/jose@v4.6.0/util/errors.ts": "ca0282ae339b178a26f9e85457f6050993382360ee3bf36dff2379b2ef40b317"
+    "https://deno.land/x/jose@v4.6.0/util/errors.ts": "ca0282ae339b178a26f9e85457f6050993382360ee3bf36dff2379b2ef40b317",
+    "https://deno.land/x/notion_sdk@v2.2.3/src/Client.ts": "00938a998e9aa825688979e6b51669f12387ff9800477dda255ca325a7868de8",
+    "https://deno.land/x/notion_sdk@v2.2.3/src/api-endpoints.ts": "2390b0e86be564a00e1b97f2cf2877f5ffbe09221208cf93f865ce45ef71b27b",
+    "https://deno.land/x/notion_sdk@v2.2.3/src/errors.ts": "43a4845c2e6576ccee7c6056172a194a6baefc3957d1ac92af6420297883197a",
+    "https://deno.land/x/notion_sdk@v2.2.3/src/helpers.ts": "f5623eb0999cdbaede187af6737eac4cd557d089ee09399bd920d3d55b296743",
+    "https://deno.land/x/notion_sdk@v2.2.3/src/logging.ts": "78ff1ed03a20a356b9c9f2cb080aaafec80702c9c292d3a6d229f34e39be6869",
+    "https://deno.land/x/notion_sdk@v2.2.3/src/mod.ts": "fd42505b28c4dcc791369f2a070a4871799aa86bbfdb39f60745dd7746a4e684",
+    "https://deno.land/x/notion_sdk@v2.2.3/src/type-utils.ts": "f533961a11ca45b4362de4688087104da18c37f5fc081c2d388112891287f033",
+    "https://deno.land/x/notion_sdk@v2.2.3/src/utils.ts": "e47eefcad19c6b4ce4c5ee7f34e9201edf4ba7af5f9e3fababc3253e0bb637cd"
   }
 }

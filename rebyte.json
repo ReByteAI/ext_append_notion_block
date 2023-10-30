@@ -1,27 +1,27 @@
 {
-  "name": "my_action_extension",
-    "displayName": "Action Extension",
-  "description": "An example action extension that generates images from a prompt.",
+  "name": "append_notion_block_ext",
+  "displayName": "Append Notion Block",
+  "description": "Append notion block by notion API",
   "version": "0.0.1",
   "main": "./src/main.ts",
   "out": "./dist/main.js",
   "inputArgs": [
     {
-      "name": "arg1",
-      "type": "string",
-      "description": "",
+      "name": "notion_api_key",
+      "type": "credential",
+      "description": "notion api key (required)",
       "required": true
     },
     {
-      "name": "arg2",
-      "type": "number",
-      "description": "",
+      "name": "parent",
+      "type": "string",
+      "description": "page_id or block_id (required)",
       "required": true
     },
     {
-      "name": "arg3",
+      "name": "blocks",
       "type": "string",
-      "description": "",
+      "description": "children blocks (required)",
       "required": true
     }
   ]
